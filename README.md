@@ -47,6 +47,10 @@ CB223Sは2008年の発売時価格と当時の消費税5%を使用していま�
 
 ## 公開
 
+アプリ: https://customing.vercel.app/
+
+ソース: https://github.com/robatodt74-byte/customing （非公開）
+
 Flutter Webのビルド済み成果物をVercelへ配置します。
 
 ```sh
