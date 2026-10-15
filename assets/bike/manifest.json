@@ -1,0 +1,101 @@
+{
+  "canvas": {
+    "width": 1536,
+    "height": 1024
+  },
+  "drawOrder": [
+    "chassis",
+    "tank",
+    "exhaust",
+    "side",
+    "rear"
+  ],
+  "none": "omit layer",
+  "placement": "render full PNG at width=1536*scale,height=1024*scale,left=x,top=y in 1536x1024 logical canvas; scale whole canvas to display size",
+  "assets": {
+    "chassis": {
+      "file": "assets/bike/chassis.png",
+      "scale": 1,
+      "x": 0,
+      "y": 0
+    },
+    "tank-black": {
+      "file": "assets/bike/tank-black.png",
+      "scale": 1,
+      "x": 0,
+      "y": 0
+    },
+    "tank-white": {
+      "file": "assets/bike/tank-white.png",
+      "scale": 1,
+      "x": 0,
+      "y": 0
+    },
+    "tank-silver": {
+      "file": "assets/bike/tank-silver.png",
+      "scale": 1,
+      "x": 0,
+      "y": 0
+    },
+    "tank-red": {
+      "file": "assets/bike/tank-red.png",
+      "scale": 1,
+      "x": 0,
+      "y": 0
+    },
+    "tank-blue": {
+      "file": "assets/bike/tank-blue.png",
+      "scale": 1,
+      "x": 0,
+      "y": 0
+    },
+    "tank-yellow": {
+      "file": "assets/bike/tank-yellow.png",
+      "scale": 1,
+      "x": 0,
+      "y": 0
+    },
+    "tank-green": {
+      "file": "assets/bike/tank-green.png",
+      "scale": 1,
+      "x": 0,
+      "y": 0
+    },
+    "tank-orange": {
+      "file": "assets/bike/tank-orange.png",
+      "scale": 1,
+      "x": 0,
+      "y": 0
+    },
+    "exhaust-up": {
+      "file": "assets/bike/exhaust-up-v2.png",
+      "scale": 0.66,
+      "x": 136,
+      "y": 312
+    },
+    "rear-box": {
+      "file": "assets/bike/rear-box.png",
+      "scale": 0.65,
+      "x": 20,
+      "y": 80
+    },
+    "side-box": {
+      "file": "assets/bike/side-box.png",
+      "scale": 0.5,
+      "x": 130,
+      "y": 240
+    },
+    "exhaust-titanium": {
+      "file": "assets/bike/exhaust-titanium-v5.png",
+      "scale": 1.08,
+      "x": -10,
+      "y": -65
+    },
+    "exhaust-normal": {
+      "file": "assets/bike/exhaust-normal.png",
+      "scale": 1.08,
+      "x": -10,
+      "y": -65
+    }
+  }
+}

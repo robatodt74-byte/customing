@@ -1,0 +1,43 @@
+name: customing
+description: "CB223S, V-Strom 250 and Rebel 250 motorcycle customizer."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/bike/chassis.png
+    - assets/bike/exhaust-normal.png
+    - assets/bike/exhaust-titanium-v5.png
+    - assets/bike/exhaust-up-v2.png
+    - assets/bike/manifest.json
+    - assets/bike/rear-box.png
+    - assets/bike/rebel/chassis-icon-v3.png
+    - assets/bike/rebel/exhaust-normal-icon-v3.png
+    - assets/bike/rebel/manifest.json
+    - assets/bike/rebel/tank-icon-v3.png
+    - assets/bike/side-box.png
+    - assets/bike/tank-black.png
+    - assets/bike/tank-blue.png
+    - assets/bike/tank-green.png
+    - assets/bike/tank-orange.png
+    - assets/bike/tank-red.png
+    - assets/bike/tank-silver.png
+    - assets/bike/tank-white.png
+    - assets/bike/tank-yellow.png
+    - assets/bike/vstrom/chassis.png
+    - assets/bike/vstrom/exhaust-normal.png
+    - assets/bike/vstrom/manifest.json
+    - assets/bike/vstrom/tank.png

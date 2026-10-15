@@ -1,0 +1,24 @@
+{
+  "tool": "built-in image_gen",
+  "subjectReference": "user Rebel250 photograph",
+  "styleReference": "user V-Strom icon screenshot",
+  "adopted": "icon-v3",
+  "generation": {
+    "source": {
+      "prompt": "Create a SIMPLE EMOJI-STYLE motorcycle icon using two references. Image 1 is SUBJECT GEOMETRY: Honda Rebel 250, preserve its low scooped seat, steeply rising elongated tank, triangular frame, chunky tires, raked fork, compact smooth liquid-cooled single-cylinder engine, short horizontal muffler with silver left endcap, small separate pillion pad on rear fender. Image 2 is STYLE ONLY: match the simplified illustrated V-Strom icon's bold dark outlines, rounded chunky forms, smooth broad charcoal highlights and economical details. Do NOT copy the adventure bike body, windshield, beak or rack from Image 2. Draw the Rebel 250 as a friendly rounded mobile emoji with only essential mechanical shapes. Simplify engine to a few large rounded dark blocks, NO cooling-fin stack, NO small bolts, NO wires/cables except one simple handlebar line, NO photographic texture or fine tire tread, wheels with about 8 thick simple spokes. Keep recognizable low cruiser silhouette, not upright CB223S. Strict right-facing side profile, whole bike centered on full 1536x1024 canvas, wheels circular side-on, good padding. Tank only PEARL WHITE with broad gray shading to allow recoloring later; rest black and dark charcoal with silver fork tubes and exhaust endcap, tiny amber reflector and red tail lamp. Strong clear outer contour like the style screenshot; smooth illustration, NOT detailed realistic rendering. Genuine fully transparent alpha background; no floor, no outside shadow, no glow, no gray noise, no labels or logos or rider or luggage. Target same detail level as the style reference screenshot, with Rebel photo's body proportions.",
+      "source": "/Users/uedatoma/.codex/generated_images/01a13cea-e303-7a82-a26a-f5191e1f82cf/exec-4ebcd389-03e8-4f1d-b1d4-daddc44b3bf7.png"
+    },
+    "chassis": {
+      "prompt": "Retain the whole motorcycle at its EXACT current pixel placement and size. Remove ONLY the WHITE tank and its cap, and the REAR silencer (horizontal black muffler, silver left endcap and taper, approximately x225..680,y675..820). Reveal plausible rear wheel/frame behind removed muffler. Retain the front curved exhaust header and low pipe which ends near x675,y815. Keep all other parts unchanged. Tank region empty and transparent. This is the bare chassis. Output original FULL 1536x1024 landscape canvas, no recentering, scaling, zoom or crop. Preserve the thick dark outlines and simplified rounded icon style. All pixels outside the retained object(s) must be true alpha=0, fully transparent, NO background gray noise, NO glow or shadow or halo, NO text or new objects.",
+      "source": "/Users/uedatoma/.codex/generated_images/01a13cea-e303-7a82-a26a-f5191e1f82cf/exec-850cfa40-1474-4c84-a31a-7430e42f3858.png"
+    },
+    "tank": {
+      "prompt": "Retain ONLY the WHITE steeply rising tank with its dark outline and gray shading at exact existing placement (approximately x725..1065,y278..484). Remove EVERY other pixel of the motorcycle and background. Keep the tank silhouette and broad flat emoji shading exactly unchanged. Output original FULL 1536x1024 landscape canvas, no recentering, scaling, zoom or crop. Preserve the thick dark outlines and simplified rounded icon style. All pixels outside the retained object(s) must be true alpha=0, fully transparent, NO background gray noise, NO glow or shadow or halo, NO text or new objects.",
+      "source": "/Users/uedatoma/.codex/generated_images/01a13cea-e303-7a82-a26a-f5191e1f82cf/exec-66886b93-5964-4d90-8026-0f173fb35ecf.png"
+    },
+    "normal": {
+      "prompt": "Retain ONLY the original black low horizontal silencer, silver LEFT endcap and tapered right connector (approximately x225..680,y675..820), exactly at existing placement. Remove every other motorcycle part and all pipe right of x680. Keep its shape, scale and broad icon shading unchanged. Output original FULL 1536x1024 landscape canvas, no recentering, scaling, zoom or crop. Preserve the thick dark outlines and simplified rounded icon style. All pixels outside the retained object(s) must be true alpha=0, fully transparent, NO background gray noise, NO glow or shadow or halo, NO text or new objects.",
+      "source": "/Users/uedatoma/.codex/generated_images/01a13cea-e303-7a82-a26a-f5191e1f82cf/exec-81360e3c-80d9-46fe-8580-98c043ae972c.png"
+    }
+  }
+}

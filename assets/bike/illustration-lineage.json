@@ -1,0 +1,45 @@
+{
+  "tool": "built-in image_gen",
+  "styleReference": "/Users/uedatoma/Documents/ChatGPT/雑用/assets/cb223s/cb223s-emoji-base-v1.png",
+  "officialReferences": {
+    "vstrom": "https://www1.suzuki.co.jp/motor/lineup/dl250rljm6/?page=top",
+    "rebel": "https://www.honda.co.jp/Rebel250/"
+  },
+  "models": {
+    "vstrom": {
+      "source": "/Users/uedatoma/.codex/generated_images/01a13cea-e303-7a82-a26a-f5191e1f82cf/exec-c6b26ca3-fafe-4df6-bd54-1990461a747d.png",
+      "chassis": {
+        "source": "/Users/uedatoma/.codex/generated_images/01a13cea-e303-7a82-a26a-f5191e1f82cf/exec-4b4c9dd1-18ec-4dce-8b64-0e4c7e074b1a.png",
+        "prompt": "Precision edit for a motorcycle app layer system. Preserve this full 1536x1024 motorcycle image's exact size, position, wheel centers, silhouette, seat, forks, windshield if present, radiator, headlamp, rack if present, frame and engine. Remove ONLY (1) ALL pearl WHITE fuel-tank paint panels and their filler cap, including the white side shroud if present, leaving transparent empty regions where those panels were; (2) the low black exhaust silencer over the rear wheel and its immediate rear connector, leaving the engine's FRONT exhaust header and lower curved pipe intact, ending near x=850,y=840, so a separate exhaust can connect there. Reveal rear wheel/frame plausibly behind removed silencer. Output the chassis base only, no tank and no rear muffler. Keep all other geometry exactly unchanged. True fully transparent alpha outside motorcycle AND in removed-panel regions, no background noise, no glow or shadow, no other additions, no recentering or zoom. Keep original emoji style."
+      },
+      "tank": {
+        "source": "/Users/uedatoma/.codex/generated_images/01a13cea-e303-7a82-a26a-f5191e1f82cf/exec-dc9e0f6d-de34-4bbf-a48b-c72105914076.png",
+        "prompt": "Precision sprite extraction. Keep ONLY ALL WHITE fuel tank panels (including the white radiator-side shroud if present) AND silver filler cap from this motorcycle reference at their exact original size and position. Remove ALL other motorcycle parts and ALL background to truly transparent alpha. Keep original full 1536x1024 landscape canvas. Main tank lies roughly x730..1080 y290..490; white side shroud if present x980..1210 y350..510 must also remain. Do NOT retain black windshield, headlamp, seat, engine, frame or exhaust. Keep the pearl-white color and original 3D shading and dark outer outline. No centering, zoom, crop or resizing. Only the white panels and cap, no gray background noise, no glows or shadows."
+      },
+      "normal": {
+        "source": "/Users/uedatoma/.codex/generated_images/01a13cea-e303-7a82-a26a-f5191e1f82cf/exec-1e0aa030-f895-4b8e-9560-b01b3f168e76.png",
+        "prompt": "Precision sprite extraction. Keep ONLY the ORIGINAL low black exhaust SILENCER over the rear wheel AND its immediate connector pipe, exactly at the original size and pixel position. Keep the whole black muffler from roughly x220..660 y665..850, and its short connector toward x750,y840. Remove all FRONT curved exhaust header to right of x750, remove engine, wheels, frame, tank, lights, all other motorcycle pixels and background. Everything except rear muffler and immediate short connector must become true transparent alpha. Output original 1536x1024 full landscape canvas, do not center, resize, crop or invent new exhaust geometry. Preserve smooth rounded emoji style, no glow or noise or text."
+      }
+    },
+    "rebel": {
+      "source": "/Users/uedatoma/.codex/generated_images/01a13cea-e303-7a82-a26a-f5191e1f82cf/exec-dea53a8d-3c12-4172-93f3-82b43c82abe6.png",
+      "chassis": {
+        "source": "/Users/uedatoma/.codex/generated_images/01a13cea-e303-7a82-a26a-f5191e1f82cf/exec-4daf99ff-2d72-4cb0-998d-07368e89e75e.png",
+        "prompt": "Precision edit for a motorcycle app layer system. Preserve this full 1536x1024 motorcycle image's exact size, position, wheel centers, silhouette, seat, forks, windshield if present, radiator, headlamp, rack if present, frame and engine. Remove ONLY (1) ALL pearl WHITE fuel-tank paint panels and their filler cap, including the white side shroud if present, leaving transparent empty regions where those panels were; (2) the low black exhaust silencer over the rear wheel and its immediate rear connector, leaving the engine's FRONT exhaust header and lower curved pipe intact, ending near x=850,y=840, so a separate exhaust can connect there. Reveal rear wheel/frame plausibly behind removed silencer. Output the chassis base only, no tank and no rear muffler. Keep all other geometry exactly unchanged. True fully transparent alpha outside motorcycle AND in removed-panel regions, no background noise, no glow or shadow, no other additions, no recentering or zoom. Keep original emoji style."
+      },
+      "tank": {
+        "source": "/Users/uedatoma/.codex/generated_images/01a13cea-e303-7a82-a26a-f5191e1f82cf/exec-1c42a766-26ce-4381-8d6a-a61a706c4a50.png",
+        "prompt": "Precision sprite extraction. Keep ONLY ALL WHITE fuel tank panels (including the white radiator-side shroud if present) AND silver filler cap from this motorcycle reference at their exact original size and position. Remove ALL other motorcycle parts and ALL background to truly transparent alpha. Keep original full 1536x1024 landscape canvas. Main tank lies roughly x730..1080 y290..490; white side shroud if present x980..1210 y350..510 must also remain. Do NOT retain black windshield, headlamp, seat, engine, frame or exhaust. Keep the pearl-white color and original 3D shading and dark outer outline. No centering, zoom, crop or resizing. Only the white panels and cap, no gray background noise, no glows or shadows."
+      },
+      "normal": {
+        "source": "/Users/uedatoma/.codex/generated_images/01a13cea-e303-7a82-a26a-f5191e1f82cf/exec-a89e915d-3951-43c1-922f-7f9e54944dfa.png",
+        "prompt": "Precision sprite extraction. Keep ONLY the ORIGINAL low black exhaust SILENCER over the rear wheel AND its immediate connector pipe, exactly at the original size and pixel position. Keep the whole black muffler from roughly x220..660 y665..850, and its short connector toward x750,y840. Remove all FRONT curved exhaust header to right of x750, remove engine, wheels, frame, tank, lights, all other motorcycle pixels and background. Everything except rear muffler and immediate short connector must become true transparent alpha. Output original 1536x1024 full landscape canvas, do not center, resize, crop or invent new exhaust geometry. Preserve smooth rounded emoji style, no glow or noise or text."
+      }
+    }
+  },
+  "rendering": {
+    "tanks": "Neutral white tank layer rendered with Flutter ColorFiltered/BlendMode.modulate for eight colors; original PNG preserved.",
+    "aftermarket": "Titanium and up mufflers and luggage reuse existing sprites with model-specific placement.",
+    "state": "Customization held independently for each bike for the lifetime of the page."
+  }
+}

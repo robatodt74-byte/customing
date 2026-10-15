@@ -1,0 +1,109 @@
+{
+  "canvas": {
+    "width": 1536,
+    "height": 1024
+  },
+  "drawOrder": [
+    "chassis",
+    "tank",
+    "exhaust",
+    "side",
+    "rear"
+  ],
+  "none": "omit layer",
+  "placement": "render full PNG at width=1536*scale,height=1024*scale,left=x,top=y in 1536x1024 logical canvas; scale whole canvas to display size",
+  "assets": {
+    "chassis": {
+      "file": "assets/bike/vstrom/chassis.png",
+      "scale": 1,
+      "x": 0,
+      "y": 0
+    },
+    "tank-black": {
+      "file": "assets/bike/vstrom/tank.png",
+      "scale": 1,
+      "x": 0,
+      "y": 0,
+      "tint": true
+    },
+    "tank-white": {
+      "file": "assets/bike/vstrom/tank.png",
+      "scale": 1,
+      "x": 0,
+      "y": 0,
+      "tint": true
+    },
+    "tank-silver": {
+      "file": "assets/bike/vstrom/tank.png",
+      "scale": 1,
+      "x": 0,
+      "y": 0,
+      "tint": true
+    },
+    "tank-red": {
+      "file": "assets/bike/vstrom/tank.png",
+      "scale": 1,
+      "x": 0,
+      "y": 0,
+      "tint": true
+    },
+    "tank-blue": {
+      "file": "assets/bike/vstrom/tank.png",
+      "scale": 1,
+      "x": 0,
+      "y": 0,
+      "tint": true
+    },
+    "tank-yellow": {
+      "file": "assets/bike/vstrom/tank.png",
+      "scale": 1,
+      "x": 0,
+      "y": 0,
+      "tint": true
+    },
+    "tank-green": {
+      "file": "assets/bike/vstrom/tank.png",
+      "scale": 1,
+      "x": 0,
+      "y": 0,
+      "tint": true
+    },
+    "tank-orange": {
+      "file": "assets/bike/vstrom/tank.png",
+      "scale": 1,
+      "x": 0,
+      "y": 0,
+      "tint": true
+    },
+    "exhaust-up": {
+      "file": "assets/bike/exhaust-up-v2.png",
+      "scale": 0.55,
+      "x": 145,
+      "y": 410
+    },
+    "rear-box": {
+      "file": "assets/bike/rear-box.png",
+      "scale": 0.65,
+      "x": 20,
+      "y": 0
+    },
+    "side-box": {
+      "file": "assets/bike/side-box.png",
+      "scale": 0.55,
+      "x": 100,
+      "y": 245
+    },
+    "exhaust-titanium": {
+      "file": "assets/bike/exhaust-titanium-v5.png",
+      "scale": 0.9,
+      "x": 10,
+      "y": 94
+    },
+    "exhaust-normal": {
+      "file": "assets/bike/vstrom/exhaust-normal.png",
+      "scale": 1,
+      "x": 15,
+      "y": -10
+    }
+  }
+}

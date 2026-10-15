@@ -1,0 +1,259 @@
+{
+  "referencedLayers": 42,
+  "models": 3,
+  "rebelRevision": "icon-v3",
+  "layers": [
+    {
+      "manifest": "manifest.json",
+      "layer": "chassis",
+      "file": "assets/bike/chassis.png",
+      "sha256": "a5db230747172bb0f5f54e46f860dfe1139797a8d4b89babafe122d0cddba6a9"
+    },
+    {
+      "manifest": "manifest.json",
+      "layer": "tank-black",
+      "file": "assets/bike/tank-black.png",
+      "sha256": "ea558c0aa732c3e6f1b205a3483bf1aa6f57a8b13a81cd5392b046744d12a420"
+    },
+    {
+      "manifest": "manifest.json",
+      "layer": "tank-white",
+      "file": "assets/bike/tank-white.png",
+      "sha256": "6b13c926a2b00ed61926f1e7541d170c9fd079a8d2e81b3a96f09cd37eb3f428"
+    },
+    {
+      "manifest": "manifest.json",
+      "layer": "tank-silver",
+      "file": "assets/bike/tank-silver.png",
+      "sha256": "2ff979309419ca8a2a33f6ce7196708e5e45a02de394ea536bab38957343d8b0"
+    },
+    {
+      "manifest": "manifest.json",
+      "layer": "tank-red",
+      "file": "assets/bike/tank-red.png",
+      "sha256": "73aa2e2cbaee88198556768769a55e46b2bb5952068fe9497f23d88179755b82"
+    },
+    {
+      "manifest": "manifest.json",
+      "layer": "tank-blue",
+      "file": "assets/bike/tank-blue.png",
+      "sha256": "86f03f670cfadbf1d44cf7a38354c7eddc76e5f2dc161c81695f7ad004395743"
+    },
+    {
+      "manifest": "manifest.json",
+      "layer": "tank-yellow",
+      "file": "assets/bike/tank-yellow.png",
+      "sha256": "82216361ff894c0e978452170a59d444e5cb70a022993ca5622adbd6e71cbc64"
+    },
+    {
+      "manifest": "manifest.json",
+      "layer": "tank-green",
+      "file": "assets/bike/tank-green.png",
+      "sha256": "6625d11ba6d0e49039b120ae13b629dd47e49350160b8f673341f447f703874e"
+    },
+    {
+      "manifest": "manifest.json",
+      "layer": "tank-orange",
+      "file": "assets/bike/tank-orange.png",
+      "sha256": "9c3a255a1a7da17d94f9e35462ac9d95489581b1fcca391a4c9c0787a9c0d657"
+    },
+    {
+      "manifest": "manifest.json",
+      "layer": "exhaust-up",
+      "file": "assets/bike/exhaust-up-v2.png",
+      "sha256": "8a0d40e3a2c2d73c56274d589253a7c59032e77e13c560966d2a84201113e0e4"
+    },
+    {
+      "manifest": "manifest.json",
+      "layer": "rear-box",
+      "file": "assets/bike/rear-box.png",
+      "sha256": "cb3da39bc994ab524c4b459c9f0554651d66ea5245d1aa6538858e49b79861e9"
+    },
+    {
+      "manifest": "manifest.json",
+      "layer": "side-box",
+      "file": "assets/bike/side-box.png",
+      "sha256": "d7c19e68dfeb5914b8e2ff79b894caffcef40a26108944eba03b23351b6d5f59"
+    },
+    {
+      "manifest": "manifest.json",
+      "layer": "exhaust-titanium",
+      "file": "assets/bike/exhaust-titanium-v5.png",
+      "sha256": "6d555c4ca265c660a5470a471d9e63b474b1be68f4fb6092f1670711760bc821"
+    },
+    {
+      "manifest": "manifest.json",
+      "layer": "exhaust-normal",
+      "file": "assets/bike/exhaust-normal.png",
+      "sha256": "c9f871bdc43b7c0d7a2841e42db9400746eb860f14f7688be289d4378e284eb6"
+    },
+    {
+      "manifest": "vstrom/manifest.json",
+      "layer": "chassis",
+      "file": "assets/bike/vstrom/chassis.png",
+      "sha256": "65d6513706aee4f0ee22c3181a29a6f9854295339f4ab4054cadfc2417bcbbfa"
+    },
+    {
+      "manifest": "vstrom/manifest.json",
+      "layer": "tank-black",
+      "file": "assets/bike/vstrom/tank.png",
+      "sha256": "bd3048e2ee4c6f293aca4bbf65f5fd372d95c7b361f6b9ad9bd3efafe9669dbe"
+    },
+    {
+      "manifest": "vstrom/manifest.json",
+      "layer": "tank-white",
+      "file": "assets/bike/vstrom/tank.png",
+      "sha256": "bd3048e2ee4c6f293aca4bbf65f5fd372d95c7b361f6b9ad9bd3efafe9669dbe"
+    },
+    {
+      "manifest": "vstrom/manifest.json",
+      "layer": "tank-silver",
+      "file": "assets/bike/vstrom/tank.png",
+      "sha256": "bd3048e2ee4c6f293aca4bbf65f5fd372d95c7b361f6b9ad9bd3efafe9669dbe"
+    },
+    {
+      "manifest": "vstrom/manifest.json",
+      "layer": "tank-red",
+      "file": "assets/bike/vstrom/tank.png",
+      "sha256": "bd3048e2ee4c6f293aca4bbf65f5fd372d95c7b361f6b9ad9bd3efafe9669dbe"
+    },
+    {
+      "manifest": "vstrom/manifest.json",
+      "layer": "tank-blue",
+      "file": "assets/bike/vstrom/tank.png",
+      "sha256": "bd3048e2ee4c6f293aca4bbf65f5fd372d95c7b361f6b9ad9bd3efafe9669dbe"
+    },
+    {
+      "manifest": "vstrom/manifest.json",
+      "layer": "tank-yellow",
+      "file": "assets/bike/vstrom/tank.png",
+      "sha256": "bd3048e2ee4c6f293aca4bbf65f5fd372d95c7b361f6b9ad9bd3efafe9669dbe"
+    },
+    {
+      "manifest": "vstrom/manifest.json",
+      "layer": "tank-green",
+      "file": "assets/bike/vstrom/tank.png",
+      "sha256": "bd3048e2ee4c6f293aca4bbf65f5fd372d95c7b361f6b9ad9bd3efafe9669dbe"
+    },
+    {
+      "manifest": "vstrom/manifest.json",
+      "layer": "tank-orange",
+      "file": "assets/bike/vstrom/tank.png",
+      "sha256": "bd3048e2ee4c6f293aca4bbf65f5fd372d95c7b361f6b9ad9bd3efafe9669dbe"
+    },
+    {
+      "manifest": "vstrom/manifest.json",
+      "layer": "exhaust-up",
+      "file": "assets/bike/exhaust-up-v2.png",
+      "sha256": "8a0d40e3a2c2d73c56274d589253a7c59032e77e13c560966d2a84201113e0e4"
+    },
+    {
+      "manifest": "vstrom/manifest.json",
+      "layer": "rear-box",
+      "file": "assets/bike/rear-box.png",
+      "sha256": "cb3da39bc994ab524c4b459c9f0554651d66ea5245d1aa6538858e49b79861e9"
+    },
+    {
+      "manifest": "vstrom/manifest.json",
+      "layer": "side-box",
+      "file": "assets/bike/side-box.png",
+      "sha256": "d7c19e68dfeb5914b8e2ff79b894caffcef40a26108944eba03b23351b6d5f59"
+    },
+    {
+      "manifest": "vstrom/manifest.json",
+      "layer": "exhaust-titanium",
+      "file": "assets/bike/exhaust-titanium-v5.png",
+      "sha256": "6d555c4ca265c660a5470a471d9e63b474b1be68f4fb6092f1670711760bc821"
+    },
+    {
+      "manifest": "vstrom/manifest.json",
+      "layer": "exhaust-normal",
+      "file": "assets/bike/vstrom/exhaust-normal.png",
+      "sha256": "02d00d10631c19347876d0e1eb223ccab041f8426b51a1bcb9b4ff6045eebc90"
+    },
+    {
+      "manifest": "rebel/manifest.json",
+      "layer": "chassis",
+      "file": "assets/bike/rebel/chassis-icon-v3.png",
+      "sha256": "c2e4c515694c463f0548fa27c77a3d196c00fc6aa0f0a1178e65e984b46c929f"
+    },
+    {
+      "manifest": "rebel/manifest.json",
+      "layer": "tank-black",
+      "file": "assets/bike/rebel/tank-icon-v3.png",
+      "sha256": "ff743470e06f4cd2b17017054b369266b5b88fd0b3696b319ef66f7b0f9143df"
+    },
+    {
+      "manifest": "rebel/manifest.json",
+      "layer": "tank-white",
+      "file": "assets/bike/rebel/tank-icon-v3.png",
+      "sha256": "ff743470e06f4cd2b17017054b369266b5b88fd0b3696b319ef66f7b0f9143df"
+    },
+    {
+      "manifest": "rebel/manifest.json",
+      "layer": "tank-silver",
+      "file": "assets/bike/rebel/tank-icon-v3.png",
+      "sha256": "ff743470e06f4cd2b17017054b369266b5b88fd0b3696b319ef66f7b0f9143df"
+    },
+    {
+      "manifest": "rebel/manifest.json",
+      "layer": "tank-red",
+      "file": "assets/bike/rebel/tank-icon-v3.png",
+      "sha256": "ff743470e06f4cd2b17017054b369266b5b88fd0b3696b319ef66f7b0f9143df"
+    },
+    {
+      "manifest": "rebel/manifest.json",
+      "layer": "tank-blue",
+      "file": "assets/bike/rebel/tank-icon-v3.png",
+      "sha256": "ff743470e06f4cd2b17017054b369266b5b88fd0b3696b319ef66f7b0f9143df"
+    },
+    {
+      "manifest": "rebel/manifest.json",
+      "layer": "tank-yellow",
+      "file": "assets/bike/rebel/tank-icon-v3.png",
+      "sha256": "ff743470e06f4cd2b17017054b369266b5b88fd0b3696b319ef66f7b0f9143df"
+    },
+    {
+      "manifest": "rebel/manifest.json",
+      "layer": "tank-green",
+      "file": "assets/bike/rebel/tank-icon-v3.png",
+      "sha256": "ff743470e06f4cd2b17017054b369266b5b88fd0b3696b319ef66f7b0f9143df"
+    },
+    {
+      "manifest": "rebel/manifest.json",
+      "layer": "tank-orange",
+      "file": "assets/bike/rebel/tank-icon-v3.png",
+      "sha256": "ff743470e06f4cd2b17017054b369266b5b88fd0b3696b319ef66f7b0f9143df"
+    },
+    {
+      "manifest": "rebel/manifest.json",
+      "layer": "exhaust-up",
+      "file": "assets/bike/exhaust-up-v2.png",
+      "sha256": "8a0d40e3a2c2d73c56274d589253a7c59032e77e13c560966d2a84201113e0e4"
+    },
+    {
+      "manifest": "rebel/manifest.json",
+      "layer": "rear-box",
+      "file": "assets/bike/rear-box.png",
+      "sha256": "cb3da39bc994ab524c4b459c9f0554651d66ea5245d1aa6538858e49b79861e9"
+    },
+    {
+      "manifest": "rebel/manifest.json",
+      "layer": "side-box",
+      "file": "assets/bike/side-box.png",
+      "sha256": "d7c19e68dfeb5914b8e2ff79b894caffcef40a26108944eba03b23351b6d5f59"
+    },
+    {
+      "manifest": "rebel/manifest.json",
+      "layer": "exhaust-titanium",
+      "file": "assets/bike/exhaust-titanium-v5.png",
+      "sha256": "6d555c4ca265c660a5470a471d9e63b474b1be68f4fb6092f1670711760bc821"
+    },
+    {
+      "manifest": "rebel/manifest.json",
+      "layer": "exhaust-normal",
+      "file": "assets/bike/rebel/exhaust-normal-icon-v3.png",
+      "sha256": "2751768800432445591d61d6392a490f12eaad3e2540d93feb623f1f49357a01"
+    }
+  ]
+}
