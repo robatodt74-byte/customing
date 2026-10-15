@@ -1,0 +1,45 @@
+name: Deploy Flutter Web to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+      - name: Install Flutter 3.44.2
+        run: |
+          git clone --depth 1 --branch 3.44.2 https://github.com/flutter/flutter.git "$RUNNER_TEMP/flutter"
+          echo "$RUNNER_TEMP/flutter/bin" >> "$GITHUB_PATH"
+      - name: Install dependencies
+        run: |
+          flutter config --no-analytics
+          flutter pub get
+      - name: Analyze and test
+        run: |
+          dart analyze --fatal-infos lib test
+          flutter test
+      - name: Build for repository path
+        run: flutter build web --base-href /customing/ --no-web-resources-cdn
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: build/web
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

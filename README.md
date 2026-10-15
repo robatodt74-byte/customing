@@ -47,15 +47,14 @@ CB223Sは2008年の発売時価格と当時の消費税5%を使用していま�
 
 ## 公開
 
-アプリ: https://customing.vercel.app/
+アプリ: https://robatodt74-byte.github.io/customing/
 
-ソース: https://github.com/robatodt74-byte/customing （非公開）
+ソース: https://github.com/robatodt74-byte/customing
 
-Flutter Webのビルド済み成果物をVercelへ配置します。
+`main`へのpushでGitHub Actionsが静的解析、テスト、Flutter Webビルドを実行し、成功した成果物をGitHub Pagesに公開します。手動再実行はActionsの「Deploy Flutter Web to GitHub Pages」から行えます。
 
 ```sh
-flutter build web --no-web-resources-cdn
-vercel deploy build/web --prod
+flutter build web --base-href /customing/ --no-web-resources-cdn
 ```
 
 配信対象には利用中の画像とmanifestのみを含め、生成履歴や参照画像は含めません。画像のテイスト統一は次の改訂で対応予定です。
